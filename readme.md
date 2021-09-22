@@ -1,10 +1,12 @@
-# Overview
+# Co-Training for Commit Classification
+
+## Overview
 
 This repository contains the dataset used in the paper Co-Training for Commit Classification published at WNUT 2021.
 
 The 900Repo dataset is contained in `negative+CC-900repos.csv` and `positive+CC-900repos.csv`. These can be used directly to replicate experiments.
 
-# Construct 900Repo Dataset
+## Construct 900Repo Dataset
 
 To replicate the construction of the 900Repo dataset, follow these steps.
 
@@ -14,10 +16,10 @@ To replicate the construction of the 900Repo dataset, follow these steps.
 
 3. Run `data-get.ipynb`. This notebook (a) downloads code diffs for the commit samples via the Github API, and (b) randomly selects a handful of negative commit samples out of the 110,000 provided by [RA21]. The .csv files saved will be similar to `negative+CC-900repos.csv` and `positive+CC-900repos.csv`.
 
-# Cite
+## Cite
 
 If our work has been useful, we would be grateful if you would consider citing todo_insert_bibtex.
 
-# References
+## References
 
 [RA21] Sofia Oliveira Reis and Rui Abreu. 2021. A ground-truth dataset of real security patches.
