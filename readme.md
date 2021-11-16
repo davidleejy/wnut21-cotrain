@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository contains the dataset used in the paper Co-Training for Commit Classification published at WNUT 2021.
+This is the official repository for the paper [Co-Training for Commit Classification published at the Seventh Workshop on Noisy User-generated Text (W-NUT 2021)](https://aclanthology.org/2021.wnut-1.43/). This repository contains the dataset used in the paper. `poster.pdf` is our poster.
 
 The 900Repo dataset is contained in `negative+CC-900repos.csv` and `positive+CC-900repos.csv`. These can be used directly to replicate experiments.
 
-## Construct 900Repo Dataset
+## Constructing 900Repo Dataset
 
 To replicate the construction of the 900Repo dataset, follow these steps.
 
@@ -18,7 +18,18 @@ To replicate the construction of the 900Repo dataset, follow these steps.
 
 ## Cite
 
-If our work has been useful, we would be grateful if you would consider citing todo_insert_bibtex.
+If our work has been useful, we would be grateful if you would consider citing
+
+```
+@inproceedings{lee2021co,
+  title={Co-training for Commit Classification},
+  author={Lee, Jian Yi David and Chieu, Hai Leong},
+  booktitle={Proceedings of the Seventh Workshop on Noisy User-generated Text (W-NUT 2021)},
+  pages={389--395},
+  year={2021}
+}
+```
+
 
 ## References
 
